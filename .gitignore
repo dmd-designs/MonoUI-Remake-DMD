@@ -1,0 +1,100 @@
+# MonoUI .gitignore
+
+# WoW saved variables (user-specific)
+*.bak
+*.old
+*.backup
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Compiled/generated files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package files (if building releases)
+*.zip
+*.rar
+*.7z
+
+# Development tools
+node_modules/
+.npm/
+.yarn/
+
+# User-specific customizations
+/Custom/
+/Profiles/
+
+# Keep library placeholder files but ignore actual libraries
+# (Users should download libraries themselves)
+# Uncomment if you want to exclude downloaded libraries:
+# /Libs/*
+# !/Libs/*/*.lua
+# /Libs/**/*
+# !/Libs/**/README.md
+
+# Media files (if you want users to add their own)
+# Uncomment to ignore user-added media:
+# /Media/Textures/*.tga
+# /Media/Textures/*.blp
+# /Media/Fonts/*.ttf
+# /Media/Sounds/*.ogg
+# /Media/Sounds/*.mp3
+
+# Keep README files in Media directories
+!/Media/**/README.*
+
+# Documentation drafts
+/Docs/drafts/
+*.draft.md
+
+# Release builds
+/releases/
+/dist/
+/build/
+
+# Test files
+/tests/
+/test/
+*_test.lua
+*_spec.lua
+
+# Coverage reports
+/coverage/
+*.coverage
+
+# Backup addon versions
+MonoUI_v*/
+MonoUI-*.zip
+
+# Local configuration overrides
+local_config.lua
+custom_settings.lua
+
+# Debug files
+debug.log
+error.log
